@@ -1,0 +1,100 @@
+.form {
+  background-color: var(--color-base--2);
+  border: 1px solid var(--color-accent-1);
+  box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.25);
+  color: var(--color-text--1);
+
+  padding: 1em;
+  border-radius: 1.25em;
+
+  overflow: auto;
+  max-height: 90vh;
+
+  flex: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.formInput,
+.formTextArea {
+  background-color: transparent;
+  border: none;
+  font-weight: 300;
+  margin: 0.35em 0 0.15em 0;
+  outline: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.formInput {
+  font-size: 1.25rem;
+  resize: vertical;
+}
+
+.column {
+  overflow: auto;
+  display: grid;
+  max-width: 100%;
+}
+
+.rowup {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.row,
+.halfrow {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75em 0;
+  padding: 1em 1.5em;
+  border-radius: 0.5em;
+  font-size: 0.7rem;
+  font-weight: 200;
+  background-color: var(--color-base--3);
+  color: var(--color-text--1);
+
+  max-width: 100%;
+}
+
+.row input,
+.halfrow select,
+.halfrow input {
+  color: var(--color-text--1);
+  font-weight: 400;
+}
+
+.halfrow {
+  width: 48%;
+}
+
+.yourRating {
+  padding: 0.5em 0;
+  margin: 0 auto;
+}
+
+.checkboxup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25em 0 0.5em 0;
+}
+
+.checkboxContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  font-size: 1rem;
+  outline: none;
+  gap: 5%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}

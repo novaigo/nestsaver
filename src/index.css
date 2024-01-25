@@ -1,0 +1,71 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+
+@font-face {
+  font-family: "Grifter";
+  src: url("/public/fonts/grifter-bold.otf") format("opentype");
+}
+
+:root {
+  --color-base--1: #f7fbff;
+  --color-base--2: #ffffff;
+  --color-base--3: #f8f8f8;
+  --color-text--1: #1c2d36;
+  --color-accent-1: #cad0db;
+  --color-accent-2: #5fa7f5;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  font-size: 1.315rem;
+  color: var(--color-text--1);
+
+  background-color: var(--color-base--1);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  color: var(--color-text--1);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text--1);
+}
+
+.cta:link,
+.cta:visited {
+  display: inline-block;
+  font-size: 1.125rem;
+  background-color: var(--color-base--2);
+  color: var(--color-text--1);
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+}

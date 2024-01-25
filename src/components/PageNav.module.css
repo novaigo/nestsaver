@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0.5em;
+  max-height: 15vh;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.cta {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 500px) {
+  .nav {
+    padding: 1em 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .nav {
+    padding: 1em 3em;
+  }
+}

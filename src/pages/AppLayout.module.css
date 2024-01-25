@@ -1,0 +1,13 @@
+.app {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 800px) {
+  .app {
+    flex-direction: row;
+    max-height: 100dvh;
+  }
+}

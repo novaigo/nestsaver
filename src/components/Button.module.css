@@ -1,0 +1,38 @@
+.btn {
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  background-color: var(--color-base--3);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.primary {
+  font-weight: 500;
+}
+
+.back {
+  font-weight: 400;
+}
+
+.position {
+  font-weight: 400;
+  position: absolute;
+  z-index: 999;
+  font-size: 1rem;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-base--1);
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+}
+
+.nest {
+  background-color: var(--color-accent-2);
+}
+
+.pagination {
+  background-color: var(--color-base--2);
+}

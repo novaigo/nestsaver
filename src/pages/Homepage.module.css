@@ -1,0 +1,74 @@
+.main {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.landing {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  max-height: 85vh;
+  overflow: hidden;
+}
+
+.homepage {
+  margin-left: 1em;
+  z-index: 999;
+}
+
+.homepage h1 {
+  font-family: "Grifter", sans-serif;
+  font-size: 3.5rem;
+  line-height: 0.85;
+}
+
+.description {
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 1.25em;
+  line-height: 1.25;
+}
+
+.homepage p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.landingImage {
+  display: none;
+}
+
+.homepage h1,
+.homepage p {
+  padding: 0.125em 0;
+}
+@media (min-width: 500px) {
+  .homepage {
+    margin-left: 1em;
+    padding: 4em 1em;
+  }
+}
+@media (min-width: 800px) {
+  .homepage {
+    position: absolute;
+    padding: 2em;
+    min-width: 100%;
+  }
+
+  .homepage h1 {
+    font-size: 4.25rem;
+  }
+
+  .landingImage {
+    display: flex;
+    position: relative;
+
+    max-width: 1024px;
+    max-height: auto;
+    margin-left: 17em;
+    margin-top: 7em;
+  }
+}

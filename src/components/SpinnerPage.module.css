@@ -1,0 +1,5 @@
+.spinner {
+  margin: 2.5rem;
+  height: 100dvh;
+  background-color: var(--color-base--1);
+}

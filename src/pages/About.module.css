@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 4em 1em;
+}
+
+.about h1 {
+  font-family: "Grifter", sans-serif;
+  font-size: 3.5rem;
+  line-height: 0.85;
+  margin-bottom: 0.25em;
+}
+
+.about p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: justify;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.description {
+  width: 80%;
+  margin-bottom: 1.25em;
+  line-height: 1.25;
+  text-align: justify;
+}
+
+.personal {
+  margin-bottom: 0.25em;
+}
+
+@media (min-width: 800px) {
+  .about {
+    padding: 5em 3em 3em 3em;
+    min-width: 100%;
+  }
+
+  .about h1 {
+    font-size: 4.25rem;
+  }
+}

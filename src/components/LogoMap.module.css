@@ -1,0 +1,13 @@
+.logoMap {
+  display: flex;
+  align-items: center;
+}
+
+.logoHome {
+  position: absolute;
+  height: 2em;
+  z-index: 999;
+  padding: 1em 1em 0 0;
+  top: 1em;
+  right: 1em;
+}

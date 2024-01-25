@@ -1,0 +1,12 @@
+.sidebar {
+  background-color: var(--color-base--1);
+  margin: 2em;
+  min-height: 60dvh;
+  flex: 1;
+}
+
+@media (min-width: 800px) {
+  .sidebar {
+    max-width: 500px;
+  }
+}

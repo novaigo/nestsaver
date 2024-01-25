@@ -1,0 +1,22 @@
+.logoIcon {
+  height: 2.5em;
+  width: auto;
+  margin: 1em;
+}
+
+.logoFull {
+  display: none;
+}
+
+@media (min-width: 500px) {
+  .logoIcon {
+    display: none;
+  }
+
+  .logoFull {
+    display: inline-block;
+    height: 1.25em;
+    width: auto;
+    margin: 1em 0;
+  }
+}

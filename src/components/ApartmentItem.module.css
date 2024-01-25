@@ -1,0 +1,85 @@
+.apartmentList {
+  border: 1px solid var(--color-accent-1);
+  padding: 0.75em 1em;
+  margin-bottom: 1em;
+  border-radius: 1.25em;
+  background-color: var(--color-base--2);
+  box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.apartmentListItems {
+  display: flex;
+}
+
+.apartmentList p,
+.apartmentList h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--color-text--1);
+}
+
+.apartmentList h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0.05em;
+}
+
+.apartmentList p {
+  font-size: 0.8rem;
+  padding-top: 0.125em;
+  font-weight: 200;
+}
+
+.deleteBtn {
+  font-size: 2rem;
+}
+
+.apartmentListItems h5 {
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+.apartmentListItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns p {
+  font-size: 2rem;
+  margin: 0 0 0.4em 0.4em;
+  color: var(--color-accent-1);
+  cursor: pointer;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.star {
+  height: 15px;
+  width: auto;
+}
+
+@media (min-width: 500px) {
+  .apartmentList h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.125em;
+  }
+  .apartmentListItems h5 {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .apartmentList {
+    padding: 1em 1.25em;
+  }
+}
