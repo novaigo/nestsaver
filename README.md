@@ -1,4 +1,7 @@
-# NestSaver - Making Apartment Search Enjoyable and Memorable
+# NestSaver - Making Apartment Search Memorable
+
+<p align="center">
+<img src='./public/img/iconPreview.png' width='125px'/></p>
 
 <h1 align="center"><a href='https://nestsaver.netlify.app/' target='_blank' rel='noopener noreferrer'>
 nestsaver.netlify.app</a></h1>
@@ -11,7 +14,7 @@ nestsaver.netlify.app</a></h1>
 
 <p align="justify">Our mission is to provide a seamless and enjoyable experience for individuals looking to find their ideal living space. We understand that a home is more than just a location; it's a collection of memories waiting to happen.</p>
 
-<p align="justify">ONavigate and explore apartments effortlessly. Easily review and compare details of apartments you've visited.</p>
+<p align="justify">Navigate and explore apartments effortlessly. Easily review and compare details of apartments you've visited.</p>
 
 # Tech Stack
 
@@ -21,10 +24,10 @@ nestsaver.netlify.app</a></h1>
 
 # Thanks to
 
-<a href="https://leafletjs.com/" target='_blank' rel='noopener noreferrer'>Leaflet</p>
-<a href="https://apidocs.geoapify.com/" target='_blank' rel='noopener noreferrer'>Geoapify</p>
-<a href="https://www.jawg.io/en/" target='_blank' rel='noopener noreferrer'>JawgMaps</p>
-<a href="https://render.com/" target='_blank' rel='noopener noreferrer'>Render</p>
+<a href="https://leafletjs.com/" target='_blank' rel='noopener noreferrer'>Leaflet Map</p>
+<a href="https://apidocs.geoapify.com/" target='_blank' rel='noopener noreferrer'>Geoapify Reverse Geocoding API</p>
+<a href="https://www.jawg.io/en/" target='_blank' rel='noopener noreferrer'>JawgMaps Style</p>
+<a href="https://render.com/" target='_blank' rel='noopener noreferrer'>Render Web Service</p>
 
 # Live app
 
