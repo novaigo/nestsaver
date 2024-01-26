@@ -17,12 +17,14 @@ nestsaver.netlify.app</a></h1>
 
 - React(React Router, Context API, useReducer, useCallback)
 - CSS Module
+- JSON Server
 
 # Thanks to
 
 <a href="https://leafletjs.com/" target='_blank' rel='noopener noreferrer'>Leaflet</p>
 <a href="https://apidocs.geoapify.com/" target='_blank' rel='noopener noreferrer'>Geoapify</p>
 <a href="https://www.jawg.io/en/" target='_blank' rel='noopener noreferrer'>JawgMaps</p>
+<a href="https://render.com/" target='_blank' rel='noopener noreferrer'>Render</p>
 
 # Live app
 
