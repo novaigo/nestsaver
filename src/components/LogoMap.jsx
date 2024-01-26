@@ -6,7 +6,7 @@ function LogoMap() {
     <div className={styles.logoMap}>
       <Link to="/">
         <img
-          src="../../public/img/MapLogo.svg"
+          src="../../img/MapLogo.svg"
           alt="NestSaver Logo"
           className={styles.logoHome}
         />

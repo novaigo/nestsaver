@@ -12,7 +12,7 @@ function BackButton() {
         navigate(-1);
       }}
     >
-      <img src="../../public/img/ArrowBackward.svg"></img>
+      <img src="../../img/ArrowBackward.svg"></img>
     </Button>
   );
 }

@@ -13,7 +13,7 @@ const initialState = {
   error: "",
 };
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://apartments-5fbs.onrender.com";
 
 const ApartmentsContext = createContext();
 

@@ -5,12 +5,12 @@ function Logo() {
   return (
     <Link to="/">
       <img
-        src="../../public/img/IconLogo.svg"
+        src="../../img/IconLogo.svg"
         alt="NestSaver logo icon"
         className={styles.logoIcon}
       />
       <img
-        src="../../public/img/LandingLogo.svg"
+        src="../../img/LandingLogo.svg"
         alt="NestSaver logo"
         className={styles.logoFull}
       />
